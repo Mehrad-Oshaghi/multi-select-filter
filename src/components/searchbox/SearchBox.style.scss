@@ -1,0 +1,22 @@
+@import "src/assets/css/Colors";
+
+.search-box {
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+
+  input {
+    padding: 10px;
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    outline: none;
+    flex: 1;
+    max-width: 100%;
+  }
+  img {
+    position: absolute;
+    right: 5px;
+    padding: 6px;
+    user-select: none;
+  }
+}

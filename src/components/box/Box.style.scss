@@ -1,0 +1,10 @@
+@import "src/assets/css/Colors";
+
+.box {
+  background-color: $background-color;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 100%;
+  padding: 25px;
+}

@@ -1,0 +1,49 @@
+@import "src/assets/css/Colors";
+
+.styled-checkbox {
+  margin-bottom: 5px;
+
+  input {
+    display: none;
+
+    + {
+      label {
+        position: relative;
+        cursor: pointer;
+        padding: 0;
+        display: flex;
+
+        &:before {
+          content: "";
+          margin-right: 10px;
+          display: inline-block;
+          width: 18px;
+          height: 18px;
+          background: #fff;
+          border: 1px solid $border-color;
+          border-radius: 3px;
+        }
+      }
+    }
+
+    &:checked {
+      + {
+        label {
+          color: $primary-color;
+
+          &:after {
+            content: "";
+            background: $primary-color;
+            width: 12px;
+            height: 12px;
+            display: inline-block;
+            position: absolute;
+            left: 4px;
+            top: 4px;
+            border-radius: 2px;
+          }
+        }
+      }
+    }
+  }
+}

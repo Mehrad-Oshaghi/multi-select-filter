@@ -1,0 +1,18 @@
+@import "src/assets/css/Colors";
+
+.btn {
+  padding: 12px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+.btn-primary {
+  background: $primary-color;
+  color: #fff;
+}
